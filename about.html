@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>about</title>
+    <style>
+#about{
+    width: 100%;
+    height: 100vh;
+     margin-top: 50px;
+}
+#about.container{
+    padding-top: 70px;
+   
+}
+.heading{
+    text-align: center;
+    margin-bottom: 50px;
+    color: black;
+    font-size: 30px;
+    font-weight: bold;
+     border-bottom: 2px solid #b2744c;
+}
+.heading>span{
+    color: #b2744c;
+    
+}
+#about .card {
+    border-radius: 20px;
+}
+#about .card img {
+    border-radius: 10px;
+}
+#about-btn{
+    width: 200px;
+    height: 36px;
+    background: transparent;
+    border: 2px solid #b2744c;
+    color: #b2744c;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: 0.5s;
+    cursor: pointer;
+}
+#about-btn:hover{
+    background-color: #b2744c;
+    color: white;
+}
+@media screen and (max-width:982px) {
+    #about p{
+        font-size: 8px;
+    }
+}
+@media screen and (max-width:766px) {
+    #about p{
+        font-size: 15px;
+    }
+}
+#about{
+    height: 120vh;
+}
+    </style>
+</head>
+<body>
+     <section id="about">
+  <div class="container">
+    <div class="heading">About <span>Us</span></div>
+    <div class="row">
+      <div class="col-md-6">
+        <div class="card">
+          <img src="aboutus.jpg"alt="image">
+        </div>
+      </div>
+      <div class="col-md-6">
+        <h3>What Makes your Coffee Special?</h3>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolorem veniam molestiae debitis perspiciatis ab nisi repudiandae iusto provident id nemo! Voluptatibus nesciunt culpa neque, nostrum provident illum libero. Autem, temporibus.<br><br>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi ratione explicabo aliquam, sed est tempora harum veniam ab, ut eaque ex eos maxime, corrupti atque ipsa numquam expedita asperiores ullam perspiciatis officia dignissimos dolorum ad? <br><br>Sed nisi animi, quis voluptate fugit pariatur qui accusamus eveniet omnis esse laudantium doloremque nesciunt.</p>
+       <button id="about-btn">Learn more.</button>
+      </div>
+    </div>
+  </div>
+ </section>
+</body>
+</html>
